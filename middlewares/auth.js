@@ -5,7 +5,7 @@ const auth = (req, res, next) => {
   // Getting token from header
   const token = req.header('x-auth-token');
 
-  //checking if header have token
+  //checking if token exist
   if (!token)
     return res
       .status(401)
