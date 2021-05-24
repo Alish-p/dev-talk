@@ -12,6 +12,7 @@ const post = require('./routes/api/post');
 // Connecting to database
 connectDB();
 
+// Body Parser
 app.use(express.json());
 
 // routes
