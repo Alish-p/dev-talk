@@ -4,12 +4,13 @@
   "description": "Small social media app for developers",
   "main": "server.js",
   "scripts": {
-    "start":"node server.js",
+    "start": "node server.js",
     "server": "nodemon server.js"
   },
   "author": "Alish Palasara",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
     "express": "^4.17.1",
